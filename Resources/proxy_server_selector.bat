@@ -23,7 +23,7 @@ GOTO End
 ECHO Starting Waterfall Test Proxy...
 md Waterfall
 curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/waterfall.bat" -o waterfall.bat
-move /y waterfall.bat /Waterfall/waterfall.bat
+move /y waterfall.bat Waterfall/waterfall.bat
 cd Waterfall
 waterfall.bat
 GOTO End
@@ -32,7 +32,7 @@ GOTO End
 ECHO Starting Geyser Standalone...
 md Geyser
 curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/geyser.bat" -o geyser.bat
-move /y geyser.bat /Geyser/geyser.bat
+move /y geyser.bat Geyser/geyser.bat
 cd Geyser
 geyser.bat
 GOTO End
