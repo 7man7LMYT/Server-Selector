@@ -17,7 +17,7 @@ IF ERRORLEVEL 1 GOTO Glowstone
 ECHO Starting Glowstone Test Server...
 md Glowstone
 curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/Glowstone.bat" -o Glowstone.bat
-move /y Glowstone.bat /Glowstone/Glowstone.bat
+move /y Glowstone.bat Glowstone/Glowstone.bat
 cd Glowstone
 Glowstone.bat
 GOTO End
@@ -25,8 +25,8 @@ GOTO End
 :VIAaaS
 ECHO Starting VIAaaS...
 md VIAaaS
-curl "https://raw.hithubusercontent.com/7man7LMYT/Server-Selector/main/Resources/VIAaaS.bat" -o VIAaaS.bat
-move /y VIAaaS.bat /VIAaaS/VIAaaS.bat
+curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/VIAaaS.bat" -o VIAaaS.bat
+move /y VIAaaS.bat VIAaaS/VIAaaS.bat
 cd VIAaaS
 VIAaaS.bat
 GOTO End
