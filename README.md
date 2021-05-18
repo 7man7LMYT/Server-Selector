@@ -36,4 +36,20 @@ So for example, Pressing `1` will show the PaperMC list.
 
 
 # Changelog
+- Added more information to the README.md (5/18/21)
 - Fixed some directory issues which prevented boot. (5/18/21)
+
+# Credit
+Credit goes to any server software featured in this list.
+
+"A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock edition." - [GeyserMC](https://github.com/GeyserMC/Geyser)
+
+"High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies." - [Paper](https://github.com/PaperMC/Paper)
+
+"BungeeCord fork that aims to improve performance and stability." - [Waterfall](https://github.com/PaperMC/Waterfall)
+
+"A fast, customizable and compatible open source server for Minecraft: Java Edition." - [Glowstone](https://github.com/GlowstoneMC/Glowstone)
+
+"ViaVersion as a Service - standalone ViaVersion proxy." - [VIAaas](https://github.com/ViaVersion/VIAaaS)
+
+And more to be added.
