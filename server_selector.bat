@@ -17,7 +17,7 @@ IF ERRORLEVEL 1 GOTO PaperMC
 ECHO Loading PaperMC Server list..
 md Paper
 curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/paper_server_selector.bat" -o paper_server_selector.bat
-move /y paper_server_selector.bat /Paper/paper_server_selector.bat
+move /y paper_server_selector.bat Paper/paper_server_selector.bat
 cd Paper
 paper_server_selector.bat
 GOTO End
@@ -26,7 +26,7 @@ GOTO End
 ECHO Loading Proxy list..
 md Proxies
 curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/proxy_server_selector.bat" -o proxy_server_selector.bat
-move /y proxy_server_selector.bat /Proxies/proxy_server_selector.bat
+move /y proxy_server_selector.bat Proxies/proxy_server_selector.bat
 cd Proxies
 proxy_server_selector.bat
 GOTO End
@@ -35,7 +35,7 @@ GOTO End
 ECHO Loading..
 md Other
 curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/other_server_selector.bat" -o other_server_selector.bat
-move /y other_server_selector.bat /Other/other_server_selector.bat
+move /y other_server_selector.bat Other/other_server_selector.bat
 cd Other
 other_server_selector.bat
 GOTO End
