@@ -7,3 +7,6 @@ Requirements:
 - A system that can run .bat files.
 - A folder so it can store the files.
 - Approx. 50-100mb so it can download at least 1 server jar.
+
+Tested on:
+- Windows 10 Java 8
