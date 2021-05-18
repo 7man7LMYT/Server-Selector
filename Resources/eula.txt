@@ -1,0 +1,3 @@
+#By having the setting below to TRUE, you agree that Rory is the cutest cat (https://rory.cat) and also agreeing that tacos are tasty.
+#7man's Server Selector v1.0
+eula=true
