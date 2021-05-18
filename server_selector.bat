@@ -8,26 +8,35 @@ ECHO.
 
 CHOICE /C 123 /M "Enter your choice:"
 
-:: list ERRORLEVELS in decreasing order
+:: Note - list ERRORLEVELS in decreasing order
 IF ERRORLEVEL 3 GOTO Other
 IF ERRORLEVEL 2 GOTO Proxies
 IF ERRORLEVEL 1 GOTO PaperMC
 
 :PaperMC
 ECHO Loading PaperMC Server list..
-cd (dir)
+md Paper
+curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/paper_server_selector.bat" -o paper_server_selector.bat
+move /y paper_server_selector.bat /Paper/paper_server_selector.bat
+cd Paper
 paper_server_selector.bat
 GOTO End
 
 :Proxies
 ECHO Loading Proxy list..
-cd (dir)
+md Proxies
+curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/proxy_server_selector.bat" -o proxy_server_selector.bat
+move /y proxy_server_selector.bat /Proxies/proxy_server_selector.bat
+cd Proxies
 proxy_server_selector.bat
 GOTO End
 
 :Other
 ECHO Loading..
-cd (dir)
+md Other
+curl "https://raw.githubusercontent.com/7man7LMYT/Server-Selector/main/Resources/other_server_selector.bat" -o other_server_selector.bat
+move /y other_server_selector.bat /Other/other_server_selector.bat
+cd Other
 other_server_selector.bat
 GOTO End
 
